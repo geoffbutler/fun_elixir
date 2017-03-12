@@ -4,7 +4,7 @@ defmodule FooTest do
 
   test "Foo.return_false returns false" do
     import Foo
-    result = return_false
+    result = return_false()
     assert !result
   end
 
