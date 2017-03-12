@@ -18,8 +18,8 @@ defmodule Foo.Mixfile do
   end
 
   defp deps do
-    [			
-			{:mix_test_watch, "~> 0.1.2"}
+    [
+      {:mix_test_watch, "~> 0.1.2"}
     ]
   end
 end
